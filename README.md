@@ -7,14 +7,14 @@ API-Artikel-Testing
 Deployed in Google Cloud App Engine
 --
 End-point URL:
-- GET all articles: https://micro-flight-387104.et.r.appspot.com/api/v1/articles/
-- GET Articles 1: https://micro-flight-387104.et.r.appspot.com/api/v1/articles/111
-- GET Articles 2: https://micro-flight-387104.et.r.appspot.com/api/v1/articles/222
-- GET Articles 3: https://micro-flight-387104.et.r.appspot.com/api/v1/articles/333
+- GET all articles: https://hening-389005.et.r.appspot.com/api/v1/articles
+- GET Articles 1: https://hening-389005.et.r.appspot.com/api/v1/articles/111
+- GET Articles 2: https://hening-389005.et.r.appspot.com/api/v1/articles/222
+- GET Articles 3: https://hening-389005.et.r.appspot.com/api/v1/articles/333
 
 The image already uploaded in Google Cloud Storage Bucket (that included in article JSON format)
 
 *Output*: in JSON Format
 
-*Documentation*: in Progress
+*Documentation*: https://documenter.getpostman.com/view/27872527/2s93saaDCK
 
