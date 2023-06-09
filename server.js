@@ -5,6 +5,7 @@ const userHandler = require('./controller/users');
 // const userProfile = require('./handlers/update-user');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+const database = require('./config/database');
 
 const app = express();
 const port = 8080;
@@ -40,5 +41,5 @@ app.post('/api/login', userHandler.loginEmail);
 // app.put('/api/update-user', userProfile.updateUser);
 
 app.listen(port, () => {
-    console.log("Server is running on port ${port}");
+    console.log(`Server is running on port ${port}`);
 });

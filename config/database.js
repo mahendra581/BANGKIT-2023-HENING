@@ -1,5 +1,8 @@
 const mysql = require('mysql');
+require('dotenv').config();
 
+console.log("halohalo");
+console.log(process.env.DB_HOST); //
 // Create a connection pool
 const pool = mysql.createPool({
   connectionLimit: 10, // Adjust as needed

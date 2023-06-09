@@ -2,6 +2,9 @@ const sql = require('../config/database');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { v4: uuidv4 } = require('uuid');
+const util = require('util');
+
+const comparePasswords = util.promisify(bcrypt.compare);
 
 const User = {
     findById: (userId) => {
@@ -18,7 +21,7 @@ const User = {
     },
     findByEmail: (email) => {
         return new Promise((resolve, reject) => {
-            const query = `SELECT * FROM users WHERE email = '${email}'`;
+            const query = `SELECT * FROM users WHERE email = '${email.trim()}'`;
             sql.query(query, (err, result) => {
                 if (err) {
                     reject(err);
@@ -52,7 +55,7 @@ const loginEmail = async(req, res) => {
                         name: result[0].name
                     };
 
-                    const token = jwt.sign(user, 'secret_key'); // Replace 'secret_key' with your actual secret key
+                    const token = jwt.sign(user, 'secret'); // Replace 'secret_key' with your actual secret key
 
                     res.status(200).send({
                         error: false,
@@ -79,7 +82,7 @@ const registerEmail = (req, res) => {
     const userId = uuidv4(); // Generate a unique user ID using UUID
 
     sql.query(
-        `SELECT email FROM users WHERE email = '${email}'`,
+        `SELECT email FROM users WHERE email = '${email.trim()}' limit 1`,
         (err, result) => {
             if (err) {
                 res.status(500).send({ error: true, message: "Server Error" });
@@ -92,10 +95,10 @@ const registerEmail = (req, res) => {
                             console.error('Error hashing password:', err);
                             res.status(500).send({ error: true, message: "Internal Server Error" });
                         } else {
-                            const query = `INSERT INTO users (userId, email, name, password) VALUES ('${userId}', '${email}', '${name}', '${hash}')`;
+                            const query = `INSERT INTO users (id, userId, email, name, password) VALUES (null,'${userId}', '${email}', '${name}', '${hash}')`;
                             sql.query(query, (err, result) => {
                                 if (err) {
-                                    res.status(500).send({ error: true, message: "Server Error" });
+                                    res.status(500).send({ error: true, message: err });
                                 } else {
                                     res.status(200).send({ error: false, message: "Registration Successful" });
                                 }
