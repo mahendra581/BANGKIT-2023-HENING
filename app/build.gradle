@@ -2,6 +2,9 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'kotlin-parcelize'
+    id "androidx.navigation.safeargs"
+
 }
 
 android {
@@ -35,7 +38,14 @@ android {
         viewBinding true
         mlModelBinding true
     }
+    androidResources {
+        noCompress 'tflite'
+    }
 }
+
+// import DownloadModels task
+project.ext.ASSET_DIR = projectDir.toString() + '/src/main/assets'
+project.ext.TEST_ASSETS_DIR = projectDir.toString() + '/src/androidTest/assets'
 
 dependencies {
 
@@ -46,8 +56,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:20.2.0'
     implementation 'com.google.firebase:firebase-storage-ktx:20.2.0'
     implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
-    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
-    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -102,4 +110,20 @@ dependencies {
     //google autentikasi
     implementation 'com.google.android.gms:play-services-auth:20.5.0'
 
+    //api
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.3"
+
+    //ml
+    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.4.0'
+
+
+    // Navigation library
+    def nav_version = "2.3.5"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // CameraX core library
+    implementation "androidx.camera:camera-core:1.2.2"
 }

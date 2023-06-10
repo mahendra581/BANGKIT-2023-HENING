@@ -13,4 +13,14 @@
     <color name="blue_buttonoff">#B6C7FF</color>
     <color name="blue_nav">#97BAFF</color>
     <color name="button_google">#4F76F7</color>
+
+    <!-- TF Branding Orange -->
+    <color name="bounding_box_color">#4F76F7</color>
+    <color name="toolbar_background">#EEEEEE</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="bottom_sheet_background">#EEEEEE</color>
+    <color name="bottom_sheet_text_color">@android:color/black</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
 </resources>

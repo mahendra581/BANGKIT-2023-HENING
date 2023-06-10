@@ -4,9 +4,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bangkit.capstonebangkitv1.databinding.ItemArticleBinding
+import com.bangkit.capstonebangkitv1.response.DataItem
 import com.bumptech.glide.Glide
 
-class ArticleAdapter(private val listStory: List<ArticleData>) : RecyclerView.Adapter<ArticleAdapter.ListViewHolder>(){
+class ArticleAdapter(private val listStory: List<DataItem>) : RecyclerView.Adapter<ArticleAdapter.ListViewHolder>(){
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ListViewHolder {
         val binding = ItemArticleBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
@@ -21,13 +22,13 @@ class ArticleAdapter(private val listStory: List<ArticleData>) : RecyclerView.Ad
 
     inner class ListViewHolder(var binding: ItemArticleBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(userData: ArticleData) {
+        fun bind(userData: DataItem) {
             binding.apply {
                 Glide.with(itemView)
-                    .load(userData.photoUrl)
+                    .load(userData.image)
                     .into(binding.imgItemPhoto)
-                binding.tvItemName.text = userData.title
-                binding.tvItemDescription.text = userData.text
+                binding.tvItemName.text = userData.id
+                binding.tvItemDescription.text = userData.content
             }
             itemView.setOnClickListener{
 //                val intentToDetail = Intent(itemView.context, DetailStoryActivity::class.java)

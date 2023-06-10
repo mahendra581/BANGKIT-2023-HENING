@@ -34,7 +34,7 @@
     <string name="register">Register</string>
     <string name="haveaccount">Have an Account?</string>
 
-<!--    fragment home page-->
+    <!--    fragment home page-->
     <string name="subtitle">Mari eksplorasi dunia tuli bersama hening!</string>
     <string name="information">Informasi</string>
     <string name="main_features">Translate Sign Language</string>
@@ -46,7 +46,7 @@
     <string name="course">Course</string>
 
 
-<!--    profil-->
+    <!--    profil-->
     <string name="name_profil">Name </string>
     <string name="phonenumber">Phone</string>
     <string name="email_profil">Email </string>
@@ -58,7 +58,29 @@
     <string name="change">Change Photo</string>
     <string name="logout">Log Out</string>
 
-<!--    artikel-->
+    <!--    artikel-->
     <string name="send_success">Berhasil terkirim</string>
     <string name="send_error">Gagal terkirim</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    team-->
+    <!--    <string-array name="data_name">-->
+    <!--        <item>Marcella Aurelia Yatijan</item>-->
+    <!--        <item>Alfredi Yoani</item>-->
+    <!--        <item>HubeŶ Igor Haryatmo Tandri</item>-->
+    <!--        <item>Masita Dewi Cahyani</item>-->
+    <!--        <item>Mahendra Adi Rahmawan </item>-->
+    <!--        <item>Ahmad Dani Alifiansyah</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="data_photo">-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--        <item>https://firebasestorage.googleapis.com/v0/b/capstonebangkit-74760.appspot.com/o/cip.png?alt=media&token=a16467f3-74f8-45a4-b31a-b8d9d78971c3</item>-->
+    <!--    </string-array>-->
+
 </resources>
