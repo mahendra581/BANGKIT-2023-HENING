@@ -13,7 +13,7 @@ class ModelArticle(private val dataSource: DataSource) : ViewModel() {
     val listArticles: LiveData<ArticleResponse> = dataSource.listActivities
 
     //    fun getArticles() = dataSource.dataArticle()
-    fun getArticles(id: Int, title: String,photoUrl: Int,text:String,source: String) {
+    fun getArticles(id: String, title: String,photoUrl: String,text:String,source: String) {
         viewModelScope.launch {
             dataSource.dataArticle(id,title, photoUrl, text, source)
             Log.d("listActivity", "$listArticles")

@@ -18,7 +18,7 @@ class DataSource private constructor(
     private val _article = MutableLiveData<ArticleResponse>()
     val listActivities: LiveData<ArticleResponse> = _article
 
-    fun dataArticle(id: Int, title: String,photoUrl: Int,text:String,source: String) {
+    fun dataArticle(id: String, title: String,photoUrl: String,text:String,source: String) {
         val client = ApiConfig.getApiService().dataArticle(id,title, photoUrl, text, source)
         client.enqueue(object : Callback<ArticleResponse> {
             override fun onResponse(

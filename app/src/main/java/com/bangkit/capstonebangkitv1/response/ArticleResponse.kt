@@ -13,21 +13,18 @@ data class ArticleResponse(
 
 data class DataItem(
 
-	@field:SerializedName("Content")
-	val content: String,
+	@field:SerializedName("sourceURL")
+	val sourceURL: String,
 
-	@field:SerializedName("Title")
-	val title: String,
+	@field:SerializedName("imageURL")
+	val imageURL: String,
 
 	@field:SerializedName("id")
 	val id: String,
 
-	@field:SerializedName("Image")
-	val image: String,
+	@field:SerializedName("text")
+	val text: String,
 
-	@field:SerializedName("Source")
-	val source: String,
-
-	@field:SerializedName("Provide")
-	val provide: String
+	@field:SerializedName("title")
+	val title: String
 )

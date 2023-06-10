@@ -84,9 +84,9 @@ class ArticleActivity : AppCompatActivity() {
     }
 
     private fun getArticle() {
-        val id = intent.getIntExtra(ID,0)
+        val id = intent.getStringExtra(ID)
         val title = intent.getStringExtra(TITLE)
-        val photoUrl = intent.getIntExtra(IMAGEURL,0)
+        val photoUrl = intent.getStringExtra(IMAGEURL)
         val text = intent.getStringExtra(TEXT)
         val source = intent.getStringExtra(SOURCE)
 
@@ -94,7 +94,7 @@ class ArticleActivity : AppCompatActivity() {
             listActivity = it.data as ArrayList<DataItem>
             Log.d("story", listActivity.toString())
         }
-        model.getArticles(id, title.toString(), photoUrl, text.toString(), source.toString())
+        model.getArticles(id.toString(), title.toString(), photoUrl.toString(), text.toString(), source.toString())
     }
 
     companion object {

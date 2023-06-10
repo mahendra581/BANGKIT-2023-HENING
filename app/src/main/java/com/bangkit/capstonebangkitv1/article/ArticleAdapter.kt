@@ -25,10 +25,10 @@ class ArticleAdapter(private val listStory: List<DataItem>) : RecyclerView.Adapt
         fun bind(userData: DataItem) {
             binding.apply {
                 Glide.with(itemView)
-                    .load(userData.image)
+                    .load(userData.imageURL)
                     .into(binding.imgItemPhoto)
-                binding.tvItemName.text = userData.id
-                binding.tvItemDescription.text = userData.content
+                binding.tvItemName.text = userData.title
+                binding.tvItemDescription.text = userData.text
             }
             itemView.setOnClickListener{
 //                val intentToDetail = Intent(itemView.context, DetailStoryActivity::class.java)
