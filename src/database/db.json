@@ -2,26 +2,162 @@
   "articles": [
     {
       "id": "111",
-      "title": "Webinar Sosialisasi Bahasa Isyarat bersama Pusbisindo Bali",
-      "imageURL": "https://storage.googleapis.com/article-image-bucket/webinar-sosialisasi-bahasa-isyarat-bersama-pusbisindo-bali.jpg",
-      "text": "Bidang Hubungan Masyarakat (Humas) Pusbisindo Bali, Ade Wirawan sebagai narasumber tentang bahasa isyarat Indonesia (Bisindo) dalam rangka webinar Sosialisasi Bahasa Isyarat, yang melibatkan Satuan Pendidikan Penyelenggara Inklusi Jenjang SD, SMP, SMA/SMK serta SLB Negeri/Swasta se-Bali. Hadir juga Ibu Suri sebagai narasumber SIBI dari Wakil Kepala Bidang Kurikulum SLB Negeri 2 Denpasar.\n\nWebinar dibuka oleh Ibu Dayu dari Kepala Bidang PK-LK dan Bahasa Disdikpora Bali. Kegiatan berlangsung di Studio BPTEKDIK Disdikpora Provinsi Bali.\n\nAde Wirawan sudah memberi masukan tentang tidak adanya akses Tuli melalui streaming youtube, dan untuk tema sebaiknya diubah menjadi 'Sosialisasi Bahasa Isyarat Indonesia (Bisindo) DAN Sistem Isyarat Indonesia (SIBI)'\n\nBerharap semoga kedepannya program serupa dilanjutkan dengan memperhatikan akses bagi Tuli dan anggaran biaya yang sesuai untuk kebutuhan Tuli.",
-      "sourceURL": "https://www.pusbisindo.org/artikel-detail/webinar-sosialisasi-bahasa-isyarat-bersama-pusbisindo-bali"
+      "Title": "Existency of Sign Language",
+      "Provide": "Hening Team",
+      "Image": "https://storage.googleapis.com/bucket-article/image2.jpg",
+      "Content": "https://storage.googleapis.com/bucket-article/Existency%20of%20Sign%20Language.txt",
+      "Source": "Amin & Pribadi, (2022)"
     },
 
     {
       "id": "222",
-      "title": "Kolaborasi Kelas Bahasa Isyarat dengan Dinas Pendidikan Kab. Kubu Raya",
-      "imageURL": "https://storage.googleapis.com/article-image-bucket/kolaborasi-kelas-bahasa-isyarat-dengan-dinas-pendidikan-kab-kubu-raya-1.jpg",
-      "text": "Dinas Pendidikan Kab. Kubu Raya bersama Bupati Kubu Raya, H.Muda Mahendrawan bekerja sama dengan Pusbisindo Kalimantan Barat mengadakan pelatihan Bahasa Isyarat Indonesia (Bisindo) bagi 32 orang staff dinas pendidikan Kubu Raya.\n\nPelatihan ini dilakukan selama 3 bulan penuh, yaitu kelas level 1 (dasar) dan dilanjutkan dengan kelas level 2. Kelas level 1 berlangsung lancar tanpa hambatan. Saat pelaksanaan kelas level 2 terdapat sedikit kendala, namun dapat dilalui dan kelas dapat diselesaikan dengan baik.\n\nPada akhirnya semua peserta dapat menyelesaikan kelas Bahasa Isyarat Indonesia dan lulus dengan hasil yang baik. Terima kasih kami sampaikan pada Dinas Pendidikan beserta Bupati Kubu Raya yang mendukung akses Bisindo di kalangan pemerintahan. Semoga Pemerintahan Kabupaten Kubu Raya dapat semakin inklusif dan ramah bagi masyarakat Tuli.",
-      "sourceURL": "https://www.pusbisindo.org/artikel-detail/kolaborasi-kelas-bahasa-isyarat-dengan-dinas-pendidikan-kab-kubu-raya-1"
+      "Title": "History of Sign Language",
+      "Provide": "Hening Team",
+      "Image": "https://storage.googleapis.com/bucket-article/image1.jpg",
+      "Content": "https://storage.googleapis.com/bucket-article/History%20of%20Sign%20Language.txt",
+      "Source": "Robert J. Ruben, (2005)"
     },
 
     {
       "id": "333",
-      "title": "Audiensi Pusbisindo Bali di Dinas Tenaga Kerja Kota Denpasar",
-      "imageURL": "https://storage.googleapis.com/article-image-bucket/audiensi-pusbisindo-bali-di-dinas-tenaga-kerja-kota-denpasar.jpeg",
-      "text": "Audiensi Pusbisindo cabang Bali diterima oleh bidang Perluasan Kesempatan Kerja (PKK), yakni Bapak Putu Sandika selaku kepala pembina PKK, bersama dengan Bapak Made serta Ibu Dayu Mirah selaku pengantar kerja.\n\nBapak Putu menyampaikan keinginan untuk melaksanakan program pelatihan bahasa Isyarat agar dapat berkomunikasi dengan Tuli, melibatkan Tuli sebagai tenaga kerja, serta mengadakan kerja sama dengan dinas-dinas untuk pelatihan bahasa Isyarat.\n\nDalam kesempatan tersebut Bapak Putu juga meminta Pusbisindo cabang Bali mengajukan proposal untuk pelatihan bahasa Isyarat.\n\nPertemuan dimulai dengan perkenalan oleh koordinator Pusbisindo cabang Bali, dan dilanjutkan dengan sesi diskusi. Diskusi turut memuat pembahasan mengenai permintaan kerja sama Pusbisindo Bali dari DNetwork untuk penyelenggaraan pelatihan Isyarat yang diminta oleh Disnaker.\n\nPusbisindo memberi masukan bagi Disnaker untuk langsung berkoordinasi dengan Pusbisindo cabang Bali melalui WhatsApp. Menurut Bapak Putu, Disnaker masih tergolong baru dalam mengelola layanan serta program berkenaan dengan Tuli, sehingga belum mengetahui alur serta koordinasi untuk pengajuan permintaan pelatihan bahasa Isyarat.\n\nPusbisindo Bali, akan tetap bekerja sama dengan Dnetwork pada bulan April untuk pelatihan bahasa Isyarat. Untuk selanjutnya akan diadakan diskusi kembali antara Disnaker dengan Pusbisindo Bali.",
-      "sourceURL": "https://www.pusbisindo.org/artikel-detail/audiensi-pusbisindo-bali-di-dinas-tenaga-kerja-kota-denpasar"
+      "Title": "History of Sign Language",
+      "Provide": "Hening Team",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg",
+      "Content": "https://storage.googleapis.com/bucket-article/Difference%20between%20SIBI%20%26%20BISINDO.txt",
+      "Source": "Nugraheni, et al. (2021)"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "A",
+      "Title": "A",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "B",
+      "Title": "B",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "C",
+      "Title": "C",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "D",
+      "Title": "D",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "E",
+      "Title": "E",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "F",
+      "Title": "F",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "G",
+      "Title": "G",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "H",
+      "Title": "H",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "I",
+      "Title": "I",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "J",
+      "Title": "J",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "K",
+      "Title": "K",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "L",
+      "Title": "L",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "M",
+      "Title": "M",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "N",
+      "Title": "N",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "O",
+      "Title": "O",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "P",
+      "Title": "P",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "Q",
+      "Title": "Q",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "R",
+      "Title": "R",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "S",
+      "Title": "S",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "T",
+      "Title": "T",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "U",
+      "Title": "U",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "V",
+      "Title": "V",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "W",
+      "Title": "W",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "X",
+      "Title": "X",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "Y",
+      "Title": "Y",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
+    },
+    {
+      "id": "Z",
+      "Title": "Z",
+      "Image": "https://storage.googleapis.com/bucket-article/image3.jpg"
     }
   ]
 }
