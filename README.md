@@ -12,9 +12,18 @@ End-point URL:
 - GET Articles 2: https://hening-389005.et.r.appspot.com/api/v1/articles/222
 - GET Articles 3: https://hening-389005.et.r.appspot.com/api/v1/articles/333
 
-The image already uploaded in Google Cloud Storage Bucket (that included in article JSON format)
+The image already uploaded in Google Cloud Storage Bucket (that included in article)
 
 *Output*: in JSON Format
+
+Improvement
+==
+We added new feature about courses
+--
+End-point URL:
+- GET all courses: https://hening-389005.et.r.appspot.com/api/v1/courses
+- GET each courses (by Alphabet): https://hening-389005.et.r.appspot.com/api/v1/courses/A
+# each endpoint is alphabet (A to Z) in capital letters
 
 *Documentation*: https://documenter.getpostman.com/view/27872527/2s93saaDCK
 
