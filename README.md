@@ -1,4 +1,4 @@
-# capstone_C23-PS409
+# Capstone_C23-PS409
 
 Organizing Capstone Project Bangkit C23-PS409
 
@@ -18,7 +18,7 @@ The image already uploaded in Google Cloud Storage Bucket (that included in arti
 
 Improvement
 ==
-We added new feature about courses
+We added new feature in this API about courses
 --
 End-point URL:
 - GET all courses: https://hening-389005.et.r.appspot.com/api/v1/courses
@@ -27,4 +27,5 @@ End-point URL:
 *each endpoint is alphabet (A to Z) in capital letters*
 
 *Documentation*: https://documenter.getpostman.com/view/27872527/2s93saaDCK
+--
 
