@@ -1,8 +1,6 @@
 const express = require('express');
 const userHandler = require('./controller/users');
-// const userMoods = require('./handlers/check-in');
-// const userImage = require('./handlers/image-profile');
-// const userProfile = require('./handlers/update-user');
+
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const database = require('./config/database');
@@ -33,12 +31,12 @@ app.get('/', (req, res) => {
     res.json(response);
 });
 
-// app.get('/api/get-all-moods', userMoods.getAllMoods);
+
 app.post('/api/register', userHandler.registerEmail);
 app.post('/api/login', userHandler.loginEmail);
-// app.post('/api/new-mood-entry', userMoods.newMoodEntry);
-// app.post('/api/user-image', userImage.uploadImage, userImage.storeImage);
-// app.put('/api/update-user', userProfile.updateUser);
+
+
+// const port = process.env.PORT;
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
