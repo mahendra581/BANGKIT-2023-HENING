@@ -75,6 +75,8 @@ Development in Mobile Development, you need that to import:
 Android studio
 Figma
 Kotlin
+Retrifit
+Camera
 MVVM Architecture
 ```
 
