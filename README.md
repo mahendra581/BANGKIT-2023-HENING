@@ -23,6 +23,8 @@ In Mobile Development, we created some features for this project:
 - Carousel
 - Profile
 
+<hr> <hr>
+
 Development in Mobile Development, you need that to import:
 
 ```
