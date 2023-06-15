@@ -5,7 +5,7 @@ Hening - Understanding The Meaning
 --
 An application that can learn and translate sign language into Indonesian to facilitate communication between deaf people and those who can hear.
 
-Our Capstone Project Team Member
+Project Contributor
 --
 
 | Member Name | Bangkit Id    | Path    |
