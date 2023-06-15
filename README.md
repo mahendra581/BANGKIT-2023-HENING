@@ -13,6 +13,8 @@ Our Capstone Project Team Member
 | Mahendra Adi Rahmawan | A360DSX2747   | Mobile Development   |
 | Ahmad Dani Alifiansyah | A132DSX1158   | Mobile Development   |
 
+<hr> <hr>
+
 ### Mobile Development
 In Mobile Development, we created some features for this project:
 - Feature camera to detect sign language
